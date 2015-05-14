@@ -7,4 +7,4 @@ RUN dnf copr enable -y msuchy/copr
 RUN dnf clean all
 
 ### CDIC END
-RUN dnf install -y python-copr
+RUN dnf install -y python-copr logstash
